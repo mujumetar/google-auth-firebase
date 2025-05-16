@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import './App.css'
 import Login from './components/Login'
 import Navbar from './components/Navbar'
@@ -10,7 +10,7 @@ import Navbar from './components/Navbar'
 function App() {
   let auth = useSelector(state => state.auth.auth)
 
-  console.log(auth)
+  // console.log(auth)
 
 
   return (

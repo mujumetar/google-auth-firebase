@@ -21,8 +21,8 @@ const Login = () => {
     const dispatch = useDispatch()
 
     function handleForm(e) {
-        console.log(e.target.name)
-        console.log(e.target.value)
+        // console.log(e.target.name)
+        // console.log(e.target.value)
         const { name, value } = e.target;
 
         setFormData({
